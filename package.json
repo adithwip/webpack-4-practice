@@ -4,7 +4,8 @@
   "description": "Webpack 4 practice ohyeaa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,9 @@
   "bugs": {
     "url": "https://github.com/adithwip/webpack-4-practice/issues"
   },
-  "homepage": "https://github.com/adithwip/webpack-4-practice#readme"
+  "homepage": "https://github.com/adithwip/webpack-4-practice#readme",
+  "devDependencies": {
+    "webpack": "^4.35.0",
+    "webpack-cli": "^3.3.4"
+  }
 }
